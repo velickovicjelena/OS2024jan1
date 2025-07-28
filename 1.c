@@ -5,12 +5,6 @@
 #include <sys/types.h>
 #include <string.h>
 
-// prolazi, ali nisam sigurna da li je dobro po pitanju apsolutnih putanja
-// ./1.c ref na dir
-// ../1.c ref na naddir
-// /home/jelena/Desktop/jan1os2024/1.c abs path
-// ../jan1os2024/1.c rel path
-
 #define checkError(cond, usrMsg)\
     do{\
         if(!(cond)){\
